@@ -1,0 +1,77 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "bootstrap-datepicker3.css";
+@import "fileinput.min.css";
+
+
+.form-serch
+{
+    border: 0px;
+    position: relative;
+}
+.order:hover
+{
+    text-decoration: none;
+    cursor: default
+}
+.order_ajax:hover
+{
+    text-decoration: none;
+    cursor: default
+}
+.order_ajax_workers:hover
+{
+    text-decoration: none;
+    cursor: default
+}
+.my_page:hover
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+.my_page_ajax:hover
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+.my_position_page_ajax:hover
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+.my_page_ajax_workers:hover
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+.my_position_page_ajax_new_worker:hover
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+.new_worker_my_page_ajax_workers:hover
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-position
+{
+    width: 95px;
+    height: 20px;
+}
+.my_table_workers th
+{
+    width: 200px;
+}
+.form-control
+{
+    border-radius: 5px !important;
+}
